@@ -1,0 +1,18 @@
+public class LogicalExpressions {
+    public static void main(String[] args) {
+        int a = 5, b = 10, c = 6;
+
+        boolean exp1 = a > b && a < c;
+        boolean exp2 = a < b && a > c;
+        boolean exp3 = a == c || b > a;
+        boolean exp4 = (b > 15 && c < 0) || a > 0;
+        boolean exp5 = ((a / 2.0 == 0.0 && b / 2 != 0) || c < 0.0);
+
+        System.out.println("1. a > b && a < c  = " + exp1);
+        System.out.println("2. a < b && a > c  = " + exp2);
+        System.out.println("3. a == c || b > a  = " + exp3);
+        System.out.println("4. (b > 15 && c < 0) || a > 0  = " + exp4);
+        System.out.println("5. (a / 2.0 == 0.0 && b / 2 != 0) || c < 0.0  = " + exp5);
+    }
+}
+
